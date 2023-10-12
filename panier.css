@@ -1,0 +1,103 @@
+.validation{
+    grid-column: 2/12;
+    text-align: end;
+}
+.validation h2{
+    color: #CAC2C2;
+    font-weight: 400;
+}
+h2 span{
+    color:black;
+    font-weight: 500;
+}
+.livraison{
+    grid-column: 2/12;
+    text-align: start;
+    justify-content: center;
+    align-items: center;
+    background-color:#4fd083;
+
+
+}
+.piement{
+    grid-column: 2/12;
+}
+.piement+img{
+    grid-column: 2/12;
+}
+.articls{
+    grid-column: 2/12;
+    
+}
+.articl{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
+    
+
+
+}
+.articl img{
+    width: 200px;
+    height: 200px;
+}
+.articlText{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: center;
+}
+.articlText h3{
+    color:#A18A68;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 26px;
+    margin-top: 50px;
+    margin-left: 0px;
+}
+
+.quantete-btn{
+    display: flex;
+    justify-content: center;
+
+}
+.plus{
+    width: 50px;
+    height: 20px;
+    color:#A18A68;
+    border:solid 2px #b48643;
+    cursor: pointer;
+    margin: 10px;
+    border-radius: 5px;
+}
+.plus:hover{
+color: #fff;
+background-color:#A18A68 ;
+}
+.moin{
+    width: 50px;
+    height: 20px;
+    color:rgb(231, 13, 13);
+    border:solid 2px rgb(231, 13, 13) ;
+    cursor: pointer;
+    margin: 10px;
+    border-radius: 5px;
+}
+.moin:hover{
+color: #fff;
+background-color:rgb(231, 13, 13) ;
+}
+i{
+margin: 20;
+}
+.cais{
+    grid-column: 6/9;
+    text-decoration: none;
+    text-align: center;
+    color:#fff;
+    background-color: #A18A68;
+    width: 300px;
+    height: 50px;
+    border-radius: 5px;
+}
