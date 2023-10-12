@@ -1,5 +1,6 @@
 .product-detail{
     grid-column: 2/12;
+
 }
 .prinsipal-info{
     display: flex;
@@ -43,7 +44,7 @@
 }
 .price{
     color:#A18A68;
-    font-size: 48px;
+    font-size: 30px;
     font-weight: 500;
     line-height: 26px;
     margin-top: 10px;
@@ -68,7 +69,7 @@
     display: flex;
 }
 .taill p{
-    margin: 10px;
+    margin: 30px;
     height: 30px;
     width: 60px;
     border: solid 1px #000;
@@ -81,5 +82,126 @@
      padding: 10px;
     border-radius: 20px;
     border: solid 2px #A18A68;
+    margin: 30px;
+}
+.secon-inf{
     margin: 20px;
+    padding: 20px 0px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+
+}
+.palett{
+    width: 400px;
+    height: 200px;
+    border: solid 2px #A18A68 ;
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items:flex-start;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+.color p{
+    color:#A18A68;
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 26px;
+    margin: 10px;
+    
+}
+.item{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    margin: 20px;
+}
+.color1{
+    background-color:#D0B58D ;
+}
+.color2{
+    background-color:#A18A68;
+}
+.color3{
+    background-color:#827878;
+}
+.color4{
+    background-color:#686AA1 ;
+}
+.color5{
+    background-color:#707070;
+}
+.color6{
+    background-color:#D2C6C6;
+}
+.color7{
+    background-color:#d58888;
+}
+.color8{
+    background-color:#5872e4;
+}
+.quantete-inf{
+    width: 400px;
+    height: 200px;
+    text-align: center;
+}
+.quantete-inf h3{
+    color:#686AA1;
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 26px;
+    margin: 10px;
+}
+.acheter-avec{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.quantete-inf input {
+    width: 200px;
+    height: 50px;
+    border: solid 2px #686AA1 ;
+    border-radius: 20px;
+}
+.acheter-avec h2{
+    color:#A18A68;
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 26px;
+    margin: 10px;
+}
+.ptit-cards{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.ptit-cart{
+    width: 300PX;
+    height: 300px;
+    margin: 20px;
+}
+.ptit-cart img{
+    
+    width: 200PX;
+    height: 200px;
+    margin: 30px;
+}
+.commentair{
+    margin: 10px;
+    padding: 10px;
+}
+.commentair h2{
+    color:#A18A68;
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 26px;
+    margin: 10px;
+}
+.comm{
+    border: solid 3px #686AA1;
+    height: 40px;
+    margin: 10px;
+    padding: 10px;
+    
 }
