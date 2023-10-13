@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!--css file-->
     <link rel="stylesheet" href="brif2.css">
+    <link rel="stylesheet" href="caisse.css">
     <!--google font-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -38,67 +39,83 @@
         <i class="fa fa-user" aria-hidden="true"></i>
     </nav>
     </header>
+    <section class="caisse">
     <div class="validation">
-        <h2>panier ><spn> validation > </spn>configeration</h2>
+        <h2>panier ><span> validation</span > > payer> configeration</h2>
     </div>
    <div class="adresse">
-    <form class="adresse">
-    <input class="input-field" type="text" placeholder="lieu*" name="lieu">
-    <input class="input-field" type="text" placeholder="Prenom*" name="prenom">
-    <input class="input-field" type="text" placeholder="Nom*" name="nom">
-    <input class="input-field" type="number" placeholder="Tel*" name="tel">
-    <input class="input-field" type="text" placeholder="adresse*" name="adresse">
-    <input class="input-field" type="text" placeholder="ville*" name="ville">
-    <input class="input-field" type="text" placeholder="region*" name="region">
-    <input class="input-field" type="text" placeholder="code postale*" name="code postale*">
-    <input class="input-field" type="submit" placeholder="conserver*" name="conserver">
-</form>
+    <div class="inputbox">
+    <input class="lieu" type="text" required="required">
+    <span>lieu*</span>
+    </div>
+    <div class="row">
+    <div class="inputbox">
+    <input class="prenom" type="text"  required="required" >
+    <span>Prenom*</span>
+    </div>
+    <div class="inputbox">
+    <input class="Nom" type="text" required="required">
+    <span>Nom*</span>
+      </div>
+    </div>
+      <div class="inputbox"> 
+    <input class="tel" type="number"  required="required">
+    <span>Tel*</span>
+    </div>
+    <div class="inputbox"> 
+    <input class="adres" type="text"  required="required">
+    <span>Adress*</span>
+     </div>
+     <div class="row">
+     <div class="inputbox">
+    <input class="ville" type="text"  required="required">
+    <span>ville*</span>
+     </div>
+     <div class="inputbox">
+    <input class="region" type="text"  required="required">
+    <span>Region*</span>
+     </div>
+     </div>
+     <div class="inputbox">
+    <input class="postal" type="text"  required="required">
+    <span>code postal*</span>
+     </div>
+    <input class="conserver" type="submit" placeholder="conserver">
 </div>
-   <div class="piement-validation">
-   <h1>paiment:</h1>
-   <form action="">
-    <input type="radio" name="paypal">
-    <label for="">paypal</label><br>
-    <input type="radio" name="google pay">
-    <label for="googlepay">googlepay</label><br>
-    <input type="radio" name="visa cart">
-    <label for="visacart">visa cart</label><br>
-    <input type="radio" name="mastercard">
-    <label for="">mastercard</label><br>
-   </form>
-   </div>
-   <div class="paiment-info">
-    <h1 class="logo">wel<span>come</span></h1>
-    <form class="cart-information">
-    <label for="SMS"> NOM</label><br>
-    <input class="input-field" type="text" placeholder="cart" name="usrnm">
-    <label for="SMS"> Prenom</label><br>
-    <input class="input-field" type="text" placeholder="  passeword " name="passeword">
-    <label for="SMS"> login with SMS</label><br>
-    <input type="checkbox" id="forget" name="forget" value="forget">
-    <label for="SMS"> forget passeword</label><br>
-    <input type="submit" id="loginbutton">
+<div class="piement-validation">
+    <h2>paiment:</h2>
+    <form action="">
+     <input type="radio" name="paypal">
+     <label for="">paypal</label><br>
+     <input type="radio" name="paypal">
+     <label for="googlepay">googlepay</label><br>
+     <input type="radio" name="paypal">
+     <label for="visacart">visa cart</label><br>
+     <input type="radio" name="paypal">
+     <label for="">mastercard</label><br>
     </form>
-   </div>
-   <footer>
-    <div class="contact">
-    <a href="contactus">contact</a>
-    <a href="term">TERMS OF SERVICES</a>
-    <a href="SHIPPING">SHIPPING AND RETURNS</a>
-    </div>
-    <p >Give an email, get the newsletter.</p>
-    <div class="icon-contact">
-        <!--linkdin icon-->
-        <i class="fa-brands fa-linkedin"></i>
-        <!--facebock icon-->
-        <i class="fa-brands fa-facebook"></i>
-        <!--instagramme-->
-        <i class="fa-brands fa-instagram"></i>
-        <!--twiter-->
-        <i class="fa-brands fa-twitter"></i>
-     <a href="panier.html">panier</a>
-     <a href="caisse.html">caisse</a>
-    </div>
- </footer>
+</div>
+    </section>
+         
+    <footer>
+        <div class="contact">
+        <a href="contactus">contact</a>
+        <a href="term">TERMS OF SERVICES</a>
+        <a href="SHIPPING">SHIPPING AND RETURNS</a>
+        </div>
+        <p >Give an email, get the newsletter.</p>
+        <div class="icon-contact">
+            <!--linkdin icon-->
+            <i class="fa-brands fa-linkedin"></i>
+            <!--facebock icon-->
+            <i class="fa-brands fa-facebook"></i>
+            <!--instagramme-->
+            <i class="fa-brands fa-instagram"></i>
+            <!--twiter-->
+            <i class="fa-brands fa-twitter"></i>
+         <a href="panier.html">panier</a>
+         <a href="caisse.html">caisse</a>
+        </div>
+     </footer>
 </body>
 </html>

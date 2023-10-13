@@ -1,0 +1,109 @@
+.caisse{
+grid-column: 2/12;
+
+}
+.validation h2{
+    color: #CAC2C2;
+    font-weight: 400;
+    text-align: end;
+}
+h2 span{
+    color:black;
+    font-weight: 500;
+}
+.adresse{
+margin: 50px;
+padding: 50px;
+border: solid 2px #A18A68 ;
+border-radius: 10px;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+align-items: center;
+gap: 20px;
+}
+.adresse input{
+    padding: 10px;
+    border: solid 2px #686AA1 ;
+    border-radius: 5px;
+    outline:none;
+}
+.inputbox{
+    position: relative;
+}
+.inputbox span{
+    position: absolute;
+    left: 0px;
+    padding: 10px;
+    text-transform: uppercase;
+    transition: 0,5s;
+}
+
+.inputbox input:valid~span,
+.inputbox input:focus~span{
+    color: #A18A68;
+    transform: translateX(10px) translateY(-10px);
+    font-size: 0.9em;
+    padding: 0 10px;
+    background-color: #fff;
+}
+
+.lieu{
+    width: 500px;;
+    height: 30px;
+}
+.prenom{
+    width: 200px;
+    height: 30px;
+}
+.Nom{
+    width: 200px;
+    height: 30px;
+}
+.ville{
+    width: 200px;
+    height: 30px; 
+}
+.region{
+    width: 200px;
+    height: 30px; 
+}
+.adres{
+    width: 500px;
+    height: 50px;
+}
+.tel{
+    width: 300px;
+}
+.postal{
+    width: 500px;
+    height: 30px;
+}
+.row{
+    display: flex;
+    gap: 10px;
+}
+.piement-validation{
+padding: 50px;
+margin: 20px;
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 10px;
+}
+h2{
+    color:black;
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 26px;
+    margin: 10px;
+    padding: 20px;
+}
+label{
+    color:black;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 10px;
+    padding: 20px; 
+}
